@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "bibliotecaMatriz.h"
+#include <math.h>
+ 
+int main(int argc, char *argv[]){  
+int a[5], b[8],i,j,p=0; 
+
+for (i=0; i<5; i++)
+
+{  
+	scanf("%i",&a); 
+}
+
+	printf("\n\n"); 
+
+	for (i=0; i<8; i++)
+{
+		scanf("%i",&b);  
+		}
+
+	for (i=0; i<5; i++)  
+	for (j=0; j<8; j++)
+	{
+
+if (a==b[j])
+
+printf("%i",b[j]);  
+}
+	system("PAUSE");  
+
+	return 0;  
+
+}
